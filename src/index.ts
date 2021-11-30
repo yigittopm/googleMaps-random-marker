@@ -2,8 +2,6 @@
 
 import { User } from "./User"
 import { Company } from "./Company"
+import { CustomMap } from "./CustomMap"
 
-//const user = new User()
-const comp = new Company()
-console.log(comp)
-
+new CustomMap('map')
